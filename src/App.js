@@ -13,11 +13,11 @@ function App() {
         <Router>
           <Navi />
             <Routes>
-              <Route exact path='/'       element={<Home    />} />
-              <Route path='/about'        element={<About   />} />
-              <Route path='/contact'      element={<Contact />} />
-              <Route path='/media/videos' element={<Video   />} />
-              <Route path='/media/photos' element={<Photo   />} />
+              <Route exact path='AO14/'       element={<Home    />} />
+              <Route path='AO14/about'        element={<About   />} />
+              <Route path='AO14/contact'      element={<Contact />} />
+              <Route path='AO14/media/videos' element={<Video   />} />
+              <Route path='AO14/media/photos' element={<Photo   />} />
             </Routes>
         </Router>
     </div>
