@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap');
+
+.contact {
+    display: flex;
+    gap: 1em;
+    font-size: 4rem;
+    letter-spacing: .09rem;
+    line-height: 2rem;
+    font-family: 'Cairo', sans-serif;
+    padding: 10px;
+}
+
+.leftSide {
+    flex: 4;
+    min-height: 50vh;
+    background-image: url('https://live.staticflickr.com/65535/52597566470_c0242a918e_b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    /* opacity: .7; */
+    z-index: 1;
+}
+
+.middleBox {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    min-height: 92vh;
+    background-image: url('https://live.staticflickr.com/65535/52598059972_dc4c400ba8_b.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    /* opacity: .7; */
+    z-index: 1;
+}
+
+.middleBox h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.middleBox h2 {
+    font-size: 1.3rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.middleBox .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-top: red solid 1px;
+}
+
+.rightSide {
+    flex: 4;
+    min-height: 50vh;
+    background-image: url('https://live.staticflickr.com/65535/52597134451_c8f102ae3b_b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    /* opacity: .7; */
+    z-index: 1;
+}
+
+@media only screen and (max-width: 844px) {
+    .contact {
+        min-height: 900px;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .middleBox {
+        min-height: 75vh;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .middleBox {
+        min-height: 65vh;
+    }
+}
+@media only screen and (max-width: 844px) {
+    .middleBox {
+        min-height: 100vh;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .middleBox {
+        min-height: 95vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .middleBox {
+        min-height: 80vh;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .middleBox {
+        min-height: 65vh;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .middleBox {
+        min-height: 65vh;
+    }
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;700;900&display=swap');
+
+.header {
+    background-image: url('https://live.staticflickr.com/65535/52597654733_b5453bb51d_b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+
+.banner {
+    max-width: 100%;
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid black 1px;
+}
+
+.banner h1 {
+    color:black;
+    font-size: 4rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: whitesmoke;
+    opacity: .6;
+    border-radius: 10px;
+}
+
+.banner h2 {
+    color:black;
+    font-size: 2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: whitesmoke;
+    opacity: .6;
+    border-radius: 10px;
+    text-align: end;
+    margin-left: 150px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        min-height: 1vh;
+    }
+    .banner h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
