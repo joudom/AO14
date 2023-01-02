@@ -19,7 +19,7 @@ function Video() {
         :
         <div className='video-item'>
         <h1>Fall 2022 <span>Highlights</span></h1>
-        <iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/eGkCzp-LSYQ" 
+        <iframe width="350" height="315" src="https://www.youtube-nocookie.com/embed/eGkCzp-LSYQ" 
           title="Ashton Oudom - Fall 2022 Highlights" border="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
         </iframe>
