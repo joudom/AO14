@@ -3,7 +3,7 @@ import '../styles/Gallery.css';
 function Gallery() {
     return (  
         <div className='grid-wrapper'>
-            <div className='tall'>
+            <div>
                 <img src="https://live.staticflickr.com/65535/52596647222_dda87e291c_b.jpg" alt="4400"/>
             </div>
             <div className='wide'>
@@ -18,16 +18,16 @@ function Gallery() {
             <div className='big'>
                 <img src="https://live.staticflickr.com/65535/52597654908_0752f0bd56_b.jpg" alt="4408"/>
             </div>
-            <div >
+            <div className='big'>
                 <img src="https://live.staticflickr.com/65535/52597134681_b3d9652c81_b.jpg" alt="4414"/>
             </div>
-            <div>
+            <div className='wide'>
                 <img src="https://live.staticflickr.com/65535/52597134666_dae5b889bd_b.jpg" alt="4415"/>
             </div>
             <div className='big'>
                 <img src="https://live.staticflickr.com/65535/52597566765_65a5864d41_b.jpg" alt="4416"/>
             </div>
-            <div className='tall'>
+            <div>
                 <img src="https://live.staticflickr.com/65535/52597398134_f39885c353_b.jpg" alt="4417"/>
             </div>
             <div className='big'>
@@ -39,16 +39,16 @@ function Gallery() {
             <div className='big'>
                 <img src="https://live.staticflickr.com/65535/52597654733_b5453bb51d_b.jpg" alt="4423"/>
             </div>
-            <div className='tall'>
+            <div>
                 <img src="https://live.staticflickr.com/65535/52597134451_c8f102ae3b_b.jpg" alt="4428"/>
             </div>
             <div>
                 <img src="https://live.staticflickr.com/65535/52596646942_775649a15d_b.jpg" alt="4440"/>
             </div>
-            <div className='tall'>
+            <div>
                 <img src="https://live.staticflickr.com/65535/52597134401_993b4acd42_b.jpg" alt="4441"/>
             </div>
-            <div>
+            <div className='big'>
                 <img src="https://live.staticflickr.com/65535/52597566515_1158ec6a9f_b.jpg" alt="4442"/>
             </div>
             <div>
@@ -63,7 +63,7 @@ function Gallery() {
             <div>
                 <img src="https://live.staticflickr.com/65535/52597134316_a98a0c4f14_b.jpg" alt="4446"/>
             </div>
-            <div className='tall'>
+            <div>
                 <img src="https://live.staticflickr.com/65535/52596646837_659e17ee61_b.jpg" alt="4447"/>
             </div>
             <div className='wide'>
@@ -72,13 +72,13 @@ function Gallery() {
             <div className='big'>
                 <img src="https://live.staticflickr.com/65535/52597654463_ab237b769d_b.jpg" alt="4449"/>
             </div>
-            <div className='tall'>
+            <div>
                 <img src="https://live.staticflickr.com/65535/52596646802_0fd4733390_b.jpg" alt="4450"/>
             </div>
-            <div className='tall'>
+            <div>
                 <img src="https://live.staticflickr.com/65535/52597566350_edf03d5747_b.jpg" alt="4469"/>
             </div>
-            <div className='tall'>
+            <div>
                 <img src="https://live.staticflickr.com/65535/52597654388_933f5232ef_b.jpg" alt="4470"/>
             </div>
             <div className='wide'>
@@ -120,16 +120,16 @@ function Gallery() {
             <div className='wide'>
                 <img src="https://live.staticflickr.com/65535/52597397604_527eb27662_b.jpg" alt=""/>
             </div>
-            <div className='tall'>
+            <div>
                 <img src="https://live.staticflickr.com/65535/52597397559_05dbb099cb_b.jpg" alt="4619"/>
             </div>
-            <div className='tall'>
+            <div>
                 <img src="https://live.staticflickr.com/65535/52597654073_64e117ee7c_b.jpg" alt="4620"/>
             </div>
             <div className='wide'>
                 <img src="https://live.staticflickr.com/65535/52596646352_008dea76fd_b.jpg" alt="4621"/>
             </div>
-            <div className='tall'>
+            <div>
                 <img src="https://live.staticflickr.com/65535/52597654038_179dea9796_b.jpg" alt="4713"/>
             </div>
             <div className='wide'>
