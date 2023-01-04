@@ -28,10 +28,14 @@
     min-height: 92vh;
     background-image: url('https://live.staticflickr.com/65535/52598059972_dc4c400ba8_b.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 75%;
     background-position: bottom;
     /* opacity: .7; */
     z-index: 1;
+}
+
+.icon {
+    padding-bottom: 20px;
 }
 
 .middleBox h1 {
@@ -41,7 +45,6 @@
 
 .middleBox h2 {
     font-size: 1.3rem;
-    padding: 20px;
     text-align: center;
 }
 
@@ -78,22 +81,27 @@
 }
 @media only screen and (max-width: 1024px) {
     .middleBox {
-        min-height: 65vh;
+        min-height: 100vh;
+    }
+}
+@media only screen and (max-width: 912px) {
+    .middleBox {
+        min-height: 50vh;
     }
 }
 @media only screen and (max-width: 844px) {
     .middleBox {
-        min-height: 100vh;
+        min-height: 70vh;
     }
 }
 @media only screen and (max-width: 768px) {
     .middleBox {
-        min-height: 95vh;
+        min-height: 75vh;
     }
 }
 @media only screen and (max-width: 600px) {
     .middleBox {
-        min-height: 80vh;
+        min-height: 90vh;
     }
 }
 @media only screen and (max-width: 450px) {
@@ -101,8 +109,13 @@
         min-height: 65vh;
     }
 }
+@media only screen and (max-width: 390px) {
+    .middleBox {
+        min-height: 70vh;
+    }
+}
 @media only screen and (max-width: 375px) {
     .middleBox {
-        min-height: 65vh;
+        min-height: 85vh;
     }
 }

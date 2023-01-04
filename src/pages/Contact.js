@@ -25,8 +25,15 @@ function Contact() {
               <div className="contact-item">
                   <div className="icon">
                     <center>
-                      <img src="https://img.icons8.com/ios-filled/50/null/circled-envelope.png" alt='email'/>
-                      <h3>Jesse_Oudom@yahoo.com</h3>
+                      <img src="https://img.icons8.com/ios-filled/50/null/circled-envelope.png" alt='email'/><h3>Jesse Oudom</h3>
+                      <h2>Jesse_Oudom@yahoo.com</h2>
+                    </center>
+                  </div>
+                  <div className="icon">
+                    <center>
+                      <img src="https://img.icons8.com/ios-filled/50/null/circled-envelope.png" alt='email'/><h3>Chris Mahaffey</h3>
+                      <h2>Executive@hcsa.org</h2>
+                      <h2>770-377-3909</h2>
                     </center>
                   </div>
               </div>
