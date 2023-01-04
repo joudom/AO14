@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { L30 } from 'react-isloading'
 import '../styles/About.css';
 
@@ -41,7 +42,7 @@ function About() {
             <b>Current:</b> <a href='https://www.hcsa.org/'>Atlanta Fire United South</a> <br/>
             <b>League:</b> <a href='https://eliteacademyleague.com/#s-home'>Elite Academy League</a> <br/>
             <b>Conference:</b> Southeast <br/>
-            <b>Coach:</b> Chris Mahaffey <br/>
+            <b>Coach:</b> <Link to='/contact'>Chris Mahaffey</Link><br/>
             </p>
           </div>
         </div>
